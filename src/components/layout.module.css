@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+}
+
+.containerbackground {
+    margin: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    color: #c6afaf;
+}
