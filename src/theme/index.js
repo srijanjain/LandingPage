@@ -150,7 +150,7 @@ export default {
       color: 'heading_secondary',
       fontFamily:'arial',
       fontWeight: '600',
-      fontSize:'3.1vw',
+      fontSize:'2.5vw',
       letterSpacing:'-1.5px',
       lineHeight: [1, null, null, null, 0.1],
       pl: [0, null, null, null, 4, 10],
