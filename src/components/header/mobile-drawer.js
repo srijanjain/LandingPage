@@ -59,7 +59,11 @@ const MobileDrawer = () => {
       <Scrollbars autoHide>
         <Box sx={styles.content}>
           <Box sx={styles.menu}>
-            {menuItems.map(({ path, label }, i) => (
+            
+          <span style={{color: '#000000', fontFamily:'Epilogue', fontSize: '32px'}}>Coming Soon...</span>
+
+
+            {/* {menuItems.map(({ path, label }, i) => (
               <Link
                 activeClass="active"
                 to={path}
@@ -71,7 +75,7 @@ const MobileDrawer = () => {
               >
                 {label}
               </Link>
-            ))}
+            ))} */}
           </Box>
 
           <Box sx={styles.menuFooter}>

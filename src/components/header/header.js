@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
-import { Link } from 'react-scroll';
 import Logo from 'components/logo';
+import Link from 'next/link';
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -18,28 +18,36 @@ export default function Header({ className }) {
           <Logo src={LogoDark} />
 
           <Flex as="nav" sx={styles.nav}>
-            {menuItems.map(({ path, label }, i) => (
+            {/* {menuItems.map(({ path, label }, i) => (
               <Link
+                className="donate__btn"
+                variant="secondary"
+                aria-label="Get Started"
+                href={path}
+                
+              >
+                {label}
+              </Link>
+            ))} */}
+          </Flex>
+
+          <Link
                 activeClass="active"
-                to={path}
+                href="https://www.google.com"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                key={i}
               >
-                {label}
-              </Link>
-            ))}
-          </Flex>
-
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
-          >
+            <Button
+              className="donate__btn"
+              variant="secondary"
+              aria-label="Get Started"
+            >
             Get Started
           </Button>
+          </Link>
+
 
           <MobileDrawer />
         </Container>

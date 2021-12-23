@@ -34,7 +34,6 @@ export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
-
       <Box sx={styles.banner.imageBox}>
           <Image src={BannerThumb} alt="banner" width="540" height="782" />
         </Box>

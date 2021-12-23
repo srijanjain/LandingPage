@@ -16,7 +16,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          description="Become a shareholder in the journey of your favourite creators fans become investors!"
+          description="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator."
           title="Respct Club"
         />
         <Banner />
