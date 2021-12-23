@@ -44,6 +44,10 @@ export default function Banner() {
           <Heading as="h1" variant="heroPrimary">
             Respct
           </Heading>
+
+          <Heading as="h6" sx={styles.subsubtitle}>
+            Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator.
+          </Heading>
           {/* <Subscribe /> */}
           {/* <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
@@ -132,6 +136,10 @@ const styles = {
 
   },
   subtitle: {
+    alignItems: 'right',
+    textAlign: 'right',
+  },
+  subsubtitle: {
     alignItems: 'right',
     textAlign: 'right',
   }
