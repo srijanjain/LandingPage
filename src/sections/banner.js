@@ -39,7 +39,7 @@ export default function Banner() {
         </Box>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroSecondary" sx={styles.subtitle}>
-            Press <span sx={styles.f}> $F </span> to pay
+            Press <span sx={styles.f}>{" "}$F </span> to pay
           </Heading>
           <Heading as="h1" variant="heroPrimary">
             Respct
